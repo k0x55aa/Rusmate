@@ -1,8 +1,7 @@
 use reqwest::header::CONNECTION;
 use reqwest::Client;
 use std::error::Error;
-use std::fs::File;
-use std::io::{self, BufRead, BufReader};
+use std::io::{self, BufRead};
 use std::time::Duration;
 use tokio::time::timeout;
 
